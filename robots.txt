@@ -1,7 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://andresomeluz.com.br/sitemap.xml
-Sitemap: http://andresomeluz.com.br/sitemap.xml
-Sitemap: https://www.andresomeluz.com.br/sitemap.xml
-Sitemap: http://www.andresomeluz.com.br/sitemap.xml

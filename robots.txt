@@ -1,7 +1,34 @@
 User-agent: *
 Allow: /
+Allow: /assets/img/*
+Allow: /assets/img/15 anos/*
+Allow: /assets/img/aniversarios/*
+Allow: /assets/img/bodas/*
+Allow: /assets/img/casamento/*
+Allow: /assets/img/eventos corporativos/*
+Allow: /assets/img/formaturas/*
 
 Sitemap: https://andresomeluz.com.br/sitemap.xml
 Sitemap: http://andresomeluz.com.br/sitemap.xml
 Sitemap: https://www.andresomeluz.com.br/sitemap.xml
 Sitemap: http://www.andresomeluz.com.br/sitemap.xml
+
+Sitemap: https://andresomeluz.com.br/dj-niteroi/urllist.txt
+Sitemap: https://andresomeluz.com.br/dj-niteroi/sitemap.xml.gz
+Sitemap: https://andresomeluz.com.br/dj-niteroi/ror.xml
+Sitemap: https://andresomeluz.com.br/dj-niteroi/sitemap.xml
+
+User-agent: Baiduspider
+Disallow: /*
+
+User-agent: HaoSouSpider
+Disallow: /*
+
+User-agent: Sogou web spider
+Disallow: /*
+
+User-agent: Sogou inst spider
+Disallow: /*
+
+User-agent: Sogou spider2
+Disallow: /*

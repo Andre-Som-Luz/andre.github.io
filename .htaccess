@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+Redirect 301 https://www.andresomeluz.com.br/fotos/ https://www.andresomeluz.com.br/fotos.html
+</IfModule>

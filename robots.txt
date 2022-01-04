@@ -9,14 +9,6 @@ Allow: /assets/img/eventos corporativos/*
 Allow: /assets/img/formaturas/*
 
 Sitemap: https://andresomeluz.com.br/sitemap.xml
-Sitemap: http://andresomeluz.com.br/sitemap.xml
-Sitemap: https://www.andresomeluz.com.br/sitemap.xml
-Sitemap: http://www.andresomeluz.com.br/sitemap.xml
-
-Sitemap: https://andresomeluz.com.br/dj-niteroi/urllist.txt
-Sitemap: https://andresomeluz.com.br/dj-niteroi/sitemap.xml.gz
-Sitemap: https://andresomeluz.com.br/dj-niteroi/ror.xml
-Sitemap: https://andresomeluz.com.br/dj-niteroi/sitemap.xml
 
 User-agent: Baiduspider
 Disallow: /*

@@ -66,42 +66,35 @@
         <section>
             <div class="container">
                 <div id="form">
-                    <div>
-                        <ul class="nav nav-tabs" role="tablist"></ul>
-                        <div class="tab-content">
-                            <div class="tab-pane" role="tabpanel" id="tab-2">
-                                <form onsubmit="validar()">
-                                    <div class="form-group py-4">
-                                        <h2 style="text-align: center;">Envie uma mensagem para nosso Whatsapp</h2>
-                                        <div class="row">
-                                            <div class="col-12 col-lg-6">
-                                                <fieldset style="padding-bottom: 8px;padding-top: 8px;"><label class="form-label">Nome</label><input class="form-control" type="text" id="name" placeholder="Seu nome" name="name" required=""></fieldset>
-                                            </div>
-                                            <div class="col-12 col-lg-6">
-                                                <fieldset style="padding-bottom: 8px;padding-top: 8px;"><label class="form-label">Email</label><input class="form-control required" type="email" id="email" placeholder="Seu email" name="email" required="" inputmode="email"></fieldset>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-12 col-lg-4">
-                                                <fieldset style="padding-bottom: 8px;padding-top: 8px;"><label class="form-label">Assunto</label><input class="form-control" type="text" id="evento" required="" name="evento" placeholder="Tipo de evento"></fieldset>
-                                            </div>
-                                            <div class="col-12 col-lg-4">
-                                                <fieldset style="padding-bottom: 8px;padding-top: 8px;"><label class="form-label">Data</label><input class="form-control" id="data" type="date" name="data" required=""></fieldset>
-                                            </div>
-                                            <div class="col-12 col-lg-4">
-                                                <fieldset style="padding-bottom: 8px;padding-top: 8px;"><label class="form-label">Cidade</label><input class="form-control" type="text" id="cidade" name="cidade" placeholder="Qual cidade" required=""></fieldset>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <fieldset style="padding-bottom: 8px;padding-top: 8px;"><label class="form-label">Descrição</label><textarea class="form-control" id="observacao" name="observacao" placeholder="Observações" rows="4" cols="5"></textarea></fieldset>
-                                    <fieldset style="padding-bottom: 8px;padding-top: 8px;">
-                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="aceite" name="aceite" value="Declaro que li e concordo com a política de privacidade" required=""><label class="form-check-label" for="aceite">Declaro que li e concordo com a <a href="/politica-de-privacidade.html">política de privacidade</a></label></div>
-                                    </fieldset>
-                                    <fieldset style="padding-bottom: 8px;padding-top: 8px;"><input class="form-control" type="hidden" id="token" name="token"><button class="btn btn-primary" id="submit" type="submit" name="submit">Enviar</button></fieldset>
-                                </form>
+                    <form onsubmit="validar()">
+                        <div class="form-group py-4">
+                            <h2 style="text-align: center;">Envie uma mensagem para nosso Whatsapp</h2>
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <fieldset style="padding-bottom: 8px;padding-top: 8px;"><label class="form-label">Nome</label><input class="form-control" type="text" id="name" placeholder="Seu nome" name="name" required=""></fieldset>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <fieldset style="padding-bottom: 8px;padding-top: 8px;"><label class="form-label">Email</label><input class="form-control required" type="email" id="email" placeholder="Seu email" name="email" required="" inputmode="email"></fieldset>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-lg-4">
+                                    <fieldset style="padding-bottom: 8px;padding-top: 8px;"><label class="form-label">Assunto</label><input class="form-control" type="text" id="evento" required="" name="evento" placeholder="Tipo de evento"></fieldset>
+                                </div>
+                                <div class="col-12 col-lg-4">
+                                    <fieldset style="padding-bottom: 8px;padding-top: 8px;"><label class="form-label">Data</label><input class="form-control" id="data" type="date" name="data" required=""></fieldset>
+                                </div>
+                                <div class="col-12 col-lg-4">
+                                    <fieldset style="padding-bottom: 8px;padding-top: 8px;"><label class="form-label">Cidade</label><input class="form-control" type="text" id="cidade" name="cidade" placeholder="Qual cidade" required=""></fieldset>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                        <fieldset style="padding-bottom: 8px;padding-top: 8px;"><label class="form-label">Descrição</label><textarea class="form-control" id="observacao" name="observacao" placeholder="Observações" rows="4" cols="5"></textarea></fieldset>
+                        <fieldset style="padding-bottom: 8px;padding-top: 8px;">
+                            <div class="form-check"><input class="form-check-input" type="checkbox" id="aceite" name="aceite" value="Declaro que li e concordo com a política de privacidade" required=""><label class="form-check-label" for="aceite">Declaro que li e concordo com a <a href="/politica-de-privacidade.html">política de privacidade</a></label></div>
+                        </fieldset>
+                        <fieldset style="padding-bottom: 8px;padding-top: 8px;"><input class="form-control" type="hidden" id="token" name="token"><button class="btn btn-primary" id="submit" type="submit" name="submit">Enviar</button></fieldset>
+                    </form>
                 </div>
             </div>
         </section>

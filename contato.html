@@ -34,14 +34,13 @@
     <link rel="stylesheet" href="/assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
 <link rel="canonical" href="https://andresomeluz.com.br/contato.html" />
 </head>
 
 <body>
     <header style="background: rgb(0,0,0);margin-top: 55px;">
         <div>
-            <nav class="navbar navbar-light navbar-expand-lg fixed-top d-inline-flex" style="background: rgb(255,255,255);box-shadow: 2px 2px 6px -1px rgb(235,235,235);">
+            <nav class="navbar navbar-light navbar-expand-md fixed-top d-inline-flex" style="background: rgb(255,255,255);box-shadow: 2px 2px 6px -1px rgb(235,235,235);">
                 <div class="container"><a class="navbar-brand" href="https://andresomeluz.com.br/">
                         <p>DJ André RJ</p>
                     </a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1" style="padding-right: 0px;padding-left: 0px;"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
@@ -68,42 +67,8 @@
             <div class="container">
                 <div id="form">
                     <div>
-                        <ul class="nav nav-tabs" role="tablist">
-                            <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-1">Email</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-2">WhatsApp</a></li>
-                        </ul>
+                        <ul class="nav nav-tabs" role="tablist"></ul>
                         <div class="tab-content">
-                            <div class="tab-pane active" role="tabpanel" id="tab-1">
-                                <form data-bss-recipient="5970bdc52ed8cd7b7e0e6637485856d6" data-bss-loading-message="Enviando..." data-bss-success-title="Sucesso" data-bss-success-message="Sua mensagem foi enviada." data-bss-error-title="Oops.." data-bss-error-message="Algo deu errado, tente novamente mais tarde." data-bss-filesize-message="O tamanho total deve ser inferior a 10 megabytes." data-bss-empty-form-message="Por favor, preencha os campos obrigatórios e tente novamente." data-bss-close="Fechar." role="form" data-bss-subject="Contato André Som &amp; Luz">
-                                    <div class="form-group py-4">
-                                        <h2 style="text-align: center;">Envie uma mensagem para nosso Email</h2>
-                                        <div class="row">
-                                            <div class="col-12 col-lg-6">
-                                                <fieldset style="padding-bottom: 8px;padding-top: 8px;"><label class="form-label">Nome</label><input class="form-control" type="text" id="name-1" placeholder="Seu nome" name="name" required=""></fieldset>
-                                            </div>
-                                            <div class="col-12 col-lg-6">
-                                                <fieldset style="padding-bottom: 8px;padding-top: 8px;"><label class="form-label">Email</label><input class="form-control required" type="email" id="email-1" placeholder="Seu email" name="email" required="" inputmode="email"></fieldset>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-12 col-lg-4">
-                                                <fieldset style="padding-bottom: 8px;padding-top: 8px;"><label class="form-label">Assunto</label><input class="form-control" type="text" id="evento-1" required="" name="evento" placeholder="Tipo de evento"></fieldset>
-                                            </div>
-                                            <div class="col-12 col-lg-4">
-                                                <fieldset style="padding-bottom: 8px;padding-top: 8px;"><label class="form-label">Data</label><input class="form-control" id="data-1" type="date" name="data" required=""></fieldset>
-                                            </div>
-                                            <div class="col-12 col-lg-4">
-                                                <fieldset style="padding-bottom: 8px;padding-top: 8px;"><label class="form-label">Cidade</label><input class="form-control" type="text" id="cidade-1" name="cidade" placeholder="Qual cidade" required=""></fieldset>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <fieldset style="padding-bottom: 8px;padding-top: 8px;"><label class="form-label">Descrição</label><textarea class="form-control" id="observacao-1" name="observacao" placeholder="Observações" rows="4" cols="5"></textarea></fieldset>
-                                    <fieldset style="padding-bottom: 8px;padding-top: 8px;">
-                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="aceite-1" name="aceite" value="Declaro que li e concordo com a política de privacidade" required=""><label class="form-check-label" for="aceite-1">Declaro que li e concordo com a <a href="/politica-de-privacidade.html">política de privacidade</a></label></div>
-                                    </fieldset>
-                                    <fieldset style="padding-bottom: 8px;padding-top: 8px;"><input class="form-control" type="hidden" id="token-1" name="token"><button class="btn btn-primary" id="submit-1" type="submit" name="submit">Enviar</button></fieldset>
-                                </form>
-                            </div>
                             <div class="tab-pane" role="tabpanel" id="tab-2">
                                 <form onsubmit="validar()">
                                     <div class="form-group py-4">
@@ -172,7 +137,6 @@
         </div>
     </footer>
     <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="/assets/js/smart-forms.min.js"></script>
     <script src="/assets/js/bs-init.js"></script>
     <script src="/assets/js/Envio-WhatsApp.js"></script>
 </body>

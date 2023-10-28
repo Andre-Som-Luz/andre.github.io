@@ -183,3 +183,8 @@
   text-decoration: none!important;
 }
 
+.creditos:hover {
+  color: rgba(214,112,18,0.8);
+  font-style: italic;
+}
+

@@ -1,0 +1,264 @@
+:root, [data-bs-theme=light] {
+  --bs-blue: #d67012;
+  --bs-primary: #d67012;
+  --bs-light: #d6701280;
+  --bs-primary-rgb: 214,112,18;
+  --bs-light-rgb: 214,112,18;
+  --bs-primary-bg-subtle: #d6701280;
+  --bs-light-bg-subtle: #fcfcfd;
+  --bs-light-border-subtle: #e9ecef;
+  --bs-link-color: rgb(214,112,18);
+  --bs-link-color-rgb: 214,112,18;
+  --bs-border-color: #ffd5ae99;
+  --bs-border-color-translucent: rgba(255,213,174,0.6);
+}
+
+.card {
+  --bs-card-border-color: rgba(255,213,174,0.6);
+  --bs-card-cap-bg: rgba(252,239,227,0.3);
+  --bs-card-bg: var(--bs-body-bg);
+}
+
+body {
+  font-family: 'Poppins';
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins';
+}
+
+.h3, h3 {
+  font-size: 1.9rem;
+}
+
+/* LGPD */
+
+.hidden {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  text-align: center;
+  padding: 10px;
+  z-index: 20;
+  box-shadow: 0px -3px 8px 0px var(--bs-primary-bg-subtle);
+}
+
+#closeButton {
+  color: var(--bs-black);
+  background: #ffffff;
+  border: 1px solid;
+}
+
+#closeButton:focus, #closeButton:hover {
+  background: rgba(214,112,18,0.2)!important;
+  color: #d67012!important;
+  border-color: rgba(214,112,18,0)!important;
+  box-shadow: none;
+}
+
+/* Barra de navegação */
+
+.nav-link.active, .nav-link.focus, .nav-link.hover, .nav-link:focus, .nav-link:hover {
+  color: #d67012 !important;
+}
+
+#navbar {
+  background: rgba(248, 249, 250, 0.75);
+  transition: background 0.6s;
+  box-shadow: 0px 2px 7px 1px var(--bs-navbar-toggler-border-color);
+}
+
+@media (min-width: 992px) {
+  .div-hero {
+    height: 600px;
+    background: url("../../assets/img//hero-xxl.webp") center center/cover no-repeat;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .div-hero {
+    height: 600px;
+    background: url("../../assets/img/hero-xs.webp") center center/cover no-repeat;
+    max-width: 100%;
+  }
+}
+
+.navbar {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(194, 94, 0.75)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  --bs-navbar-toggler-border-color: rgba(194, 94, 1, 0.15);
+  --bs-navbar-toggler-focus-width: none;
+}
+
+.btn-close {
+  --bs-text-opacity: 1;
+  --bs-btn-close-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") !important;
+  --bs-btn-close-focus-shadow: 0 0 0 0rem var(--bs-primary);
+}
+
+#back-to-top, #whatsapp {
+  position: fixed;
+  z-index: 9999;
+  display: none;
+}
+
+#back-to-top {
+  right: 15px;
+  bottom: 15px;
+}
+
+#whatsapp {
+  left: 15px;
+  bottom: 15px;
+}
+
+/* #preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+} */
+
+/* Estilo para o preloader */
+
+#preloader {
+}
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+#loader {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid var(--bs-orange);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Estilo para a imagem do spinner */
+
+/* Adicione uma classe para ocultar a div até que a animação seja acionada */
+
+#brand {
+  font-weight: bold;
+  color: rgb(194, 94, 1);
+}
+
+#offcanvasheader {
+  background: #d67012 !important;
+}
+
+#divHero {
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 8px;
+  border: 1px solid #ffd5ae99;
+}
+
+.pHero {
+  font-family: 'Poppins';
+}
+
+#submit {
+  color: rgb(255, 255, 255);
+}
+
+.form-check-input:checked {
+  background-color: rgba(214,112,18,0.6);
+  border-color: rgba(214,112,18,0.8);
+}
+
+.form-check-input, .form-control {
+  border-color: rgba(214,112,18,0.2);
+  box-shadow: none;
+}
+
+.form-check-input:focus, .form-control:focus {
+  border-color: rgba(214,112,18,0.8);
+  box-shadow: none;
+}
+
+#submit, :focus {
+  box-shadow: none;
+  border-color: rgba(214,112,18,0.8);
+}
+
+#submit:focus, #submit:hover {
+  background: rgba(214,112,18,0.2);
+  color: #d67012;
+}
+
+.card-header {
+  padding: 0px;
+}
+
+h2 {
+  padding-bottom: 25px;
+}
+
+.bg-color {
+  padding-top: 65px;
+  padding-bottom: 35px;
+  color: #000!important;
+  background-color: #f8c08d1a!important;
+}
+
+h4 {
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+
+.card-body {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .bt-icon {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bt-icon {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+#offcanvasNavbarLabel {
+  color: rgb(255,255,255)!important;
+}
+
+h5 {
+  color: rgb(255,255,255)!important;
+}
+

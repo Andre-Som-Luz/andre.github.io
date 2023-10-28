@@ -168,16 +168,21 @@
             <p class="mb-0 pt-3">Criado por:&nbsp;<a class="creditos" href="https://gilmarwebdesign.com.br" target="_blank" rel="external">Gilmar Web Design</a></p>
         </div>
     </footer>
-    <div id="whatsapp" class="fadeInUp"><a class="d-flex justify-content-center align-items-center" data-bs-target="#contato" data-bs-toggle="modal" aria-label="Contato pelo whatsapp" href="#"><img class="img-fluid bt-icon" src="assets/img/icones/bt-whatsapp.webp" alt="Mensagem WhatsApp" loading="lazy"></a></div>
-    <div id="back-to-top" class="fadeInUp"><a class="d-flex justify-content-center align-items-center" aria-label="Voltar ao topo" href="#"><img class="img-fluid bt-icon" src="assets/img/icones/bt-top.webp" alt="Ir para o topo"></a></div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="contato">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header text-light text-bg-primary d-flex justify-content-center">
-                    <h5 class="modal-title">Mensagem por WhatsApp</h5><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body">
-                    <form onsubmit="validar()"><input class="form-control mb-3" type="text" id="nome" name="nome" placeholder="Seu nome" required=""><textarea class="form-control mb-3" id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" required=""></textarea><button class="btn btn-primary" id="submit" type="submit" name="submit">Enviar</button></form>
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+    <div class="container">
+        <div id="whatsapp" class="fadeInUp"><a class="d-flex justify-content-center align-items-center" data-bs-target="#contato" data-bs-toggle="modal" aria-label="Contato pelo whatsapp" href="#"><img class="img-fluid bt-icon" src="assets/img/icones/bt-whatsapp.webp" alt="Mensagem WhatsApp" loading="lazy"></a></div>
+        <div id="back-to-top" class="fadeInUp"><a class="d-flex justify-content-center align-items-center" aria-label="Voltar ao topo" href="#"><img class="img-fluid bt-icon" src="assets/img/icones/bt-top.webp" alt="Ir para o topo"></a></div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="contato">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-light text-bg-primary d-flex justify-content-center">
+                        <h5 class="modal-title">Mensagem por WhatsApp</h5><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form onsubmit="validar()"><input class="form-control mb-3" type="text" id="nome" name="nome" placeholder="Seu nome" required=""><textarea class="form-control mb-3" id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" required=""></textarea><button class="btn btn-primary" id="submit" type="submit" name="submit">Enviar</button></form>
+                    </div>
                 </div>
             </div>
         </div>

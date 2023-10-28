@@ -7,7 +7,6 @@ function validar() {
 	if (name == "") {
 		alert("Nome em branco!");
 		return;
-	}else{
 		var url = "https://api.whatsapp.com/send/?phone=5521991531856&text="  
 		+ "Nome: " + name + "%0a"
         + "Mensagem: " + observacao + "%0a"

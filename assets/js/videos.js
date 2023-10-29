@@ -13,6 +13,7 @@ window.addEventListener('DOMContentLoaded', function () {
         otherVideo.pause();
         clickableVideos.forEach((c) => c.classList.remove('playing'));
         thumbnails.forEach((tn) => (tn.style.display = 'block'));
+        logo.style.display = 'block';  
       });
 
       clickableVideo.classList.add('playing');

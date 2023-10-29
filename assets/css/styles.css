@@ -266,3 +266,16 @@ h5 {
   border-top: 1px solid rgba(255,213,174,0.6);
 }
 
+.creditos:hover {
+  color: rgba(214,112,18,0.6);
+}
+
+.creditos {
+  text-decoration: none!important;
+  font-size: 20px;
+}
+
+.h3, h3 {
+  margin-bottom: 25px;
+}
+

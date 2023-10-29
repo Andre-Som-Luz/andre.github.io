@@ -175,16 +175,3 @@
   animation-name: zoomInUp;
 }
 
-.h3, h3 {
-  margin-bottom: 25px;
-}
-
-.creditos {
-  text-decoration: none!important;
-}
-
-.creditos:hover {
-  color: rgba(214,112,18,0.8);
-  font-style: italic;
-}
-

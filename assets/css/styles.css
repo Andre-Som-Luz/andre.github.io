@@ -267,12 +267,14 @@ h5 {
 }
 
 .creditos:hover {
-  color: rgba(214,112,18,0.6);
+  color: rgb(0,0,0);
 }
 
 .creditos {
   text-decoration: none!important;
   font-size: 20px;
+  color: #000000;
+  font-weight: 500;
 }
 
 .h3, h3 {

@@ -262,3 +262,7 @@ h5 {
   color: rgb(255,255,255)!important;
 }
 
+.fotos-home {
+  border-top: 1px solid rgba(255,213,174,0.6);
+}
+

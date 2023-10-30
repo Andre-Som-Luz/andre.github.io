@@ -29,7 +29,6 @@
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="assets/css/Poppins.css">
     <link rel="stylesheet" href="assets/css/bs-theme-overrides.css">
-    <link rel="stylesheet" href="assets/css/aos.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/play-btn.css">
@@ -47,6 +46,9 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav flex-grow-1 justify-content-end pe-3">
                             <li class="nav-item"><a class="nav-link" aria-current="page" href="/">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="fotos.html">Fotos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="videos.html">Vídeos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="politica-de-privacidade.html">Política de Privacidade</a></li>
                             <li class="nav-item"><a class="nav-link active" href="contato.html">Contato</a></li>
                         </ul>
                     </div>
@@ -56,12 +58,11 @@
         <section class="mt-0">
             <div class="pt-0 min-vh-100 div-hero">
                 <div class="container d-flex align-items-end h-100 mb-0">
-                    <div class="row mt-0 pb-0 mb-5">
-                        <div class="col text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center align-self-end align-self-sm-end justify-content-md-start align-items-md-center align-self-md-end justify-content-xl-center mt-0 pt-0 mb-5 pb-0">
-                            <div class="mb-0 pb-0 mt-0 pt-0 ps-md-3 pe-md-3 pt-md-3 pb-md-0 mt-lg-0 pt-lg-0" style="background:rgba(255,255,255,0.55);border-radius:8px;border:1px solid #664d035a;">
-                                <h1 class="fw-bold me-md-0 pt-md-0 mt-md-0 mb-lg-0 pb-lg-0 pb-md-0 mb-md-0 mb-0 pb-0 mt-lg-0 pt-lg-3 pt-2 mt-3" style="font-family:'Playfair Display', serif;color:rgb(194,94,1);">Dj, Som e Luz</h1>
-                                <p class="mb-md-0 pb-md-0 pt-0 mb-0 pb-0 mt-3" style="font-family:Montserrat, sans-serif;">Casamentos, 15 anos e formaturas</p>
-                                <p class="pt-md-4 mt-0 pt-3 mb-0 pb-3 mb-md-0" style="font-family:Montserrat, sans-serif;">Som, luz, imagem, efeitos especiais, iluminação ambiente, pista de dança personalizada e estruturas em alumínio</p>
+                    <div class="row mt-0 pb-0 mb-0">
+                        <div class="col text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center align-self-end align-self-sm-end justify-content-md-start align-items-md-center align-self-md-end justify-content-xl-center mt-0 pt-0 pb-0 ps-2 pe-2 mb-4">
+                            <div id="divHero" class="ps-3 pe-3 pt-0 pb-3 mb-5">
+                                <h1 class="fw-bold text-primary me-md-0 pt-md-0 mt-md-0 mb-lg-0 pb-lg-0 pb-md-0 mb-md-0 mb-0 pb-0 mt-lg-0 pt-lg-3 pt-2 mt-2" id="hero-h1" style="color: #d67012;">André Som e Luz</h1>
+                                <p class="text-md-center text-lg-start mb-md-0 pb-md-0 pt-0 mb-0 pb-0 mt-3 pHero">Transforme seu&nbsp;Casamento, 15 Anos ou Evento Corporativo em uma experiência memorável com a excelência dos nossos serviços de DJ, sonorização, iluminação e imagem de primeira&nbsp;qualidade!</p>
                             </div>
                         </div>
                     </div>
@@ -69,114 +70,7 @@
             </div>
         </section>
     </header>
-    <main>
-        <div class="container py-4 py-xl-5">
-            <div class="row mb-5">
-                <div class="col-md-8 col-xl-6 text-center mx-auto">
-                    <h2>Eventos realizados</h2>
-                    <p class="w-lg-50">Imagens demonstrativas dos nossos equipamentos e alguns eventos já realizados</p>
-                </div>
-            </div>
-            <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
-                <div class="col">
-                    <div class="card"><img class="img-fluid card-img-top w-100 d-block fit-cover" style="height: 200px;" src="thumbnail/casamentos/dj-andre-casamento-rio-bonito-esporte-clube-fluminense-1.webp" alt="DJ para festas de casamento" width="414px" height="200px" loading="lazy">
-                        <div class="card-body p-4">
-                            <h2 class="text-primary card-text mb-1">Casamentos</h2>
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                            <div>
-                                <p class="fw-bold mb-0">Rio Bonito</p>
-                                <p class="text-muted mb-0">Esporte Clube Fluminense</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card"><img class="img-fluid card-img-top w-100 d-block fit-cover" style="height: 200px;" src="thumbnail/15-anos/dj-andre-15-anos-sao-goncalo-luf-eventos-4.webp" alt="DJ para festas de 15 anos" loading="lazy" width="414px" height="200px">
-                        <div class="card-body p-4">
-                            <h2 class="text-primary card-text mb-1">15 anos</h2>
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                            <div>
-                                <p class="fw-bold mb-0">São Gonçalo</p>
-                                <p class="text-muted mb-0">Luf Eventos</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card"><img class="img-fluid card-img-top w-100 d-block fit-cover" style="height: 200px;" src="thumbnail/formaturas/dj-andre-formatura-lagoa-rio-de-janeiro-clube-monte-libano.webp" alt="DJ para festas de formatura" width="414px" height="200px" loading="lazy">
-                        <div class="card-body p-4">
-                            <h2 class="text-primary card-text mb-1">Formaturas</h2>
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                            <div>
-                                <p class="fw-bold mb-0">Rio de Janeiro</p>
-                                <p class="text-muted mb-0">Clube Monte Libano</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3 pt-4">
-                <div class="col">
-                    <div class="card"><img class="img-fluid card-img-top w-100 d-block fit-cover" style="height: 200px;" src="thumbnail/eventos/dj-andre-lancamento-sandero-stepway-ripi-curl-niteroi-praia-de-charitas-1.webp" loading="lazy" width="414px" height="200px" alt="DJ para eventos corporativos">
-                        <div class="card-body p-4">
-                            <h2 class="text-primary card-text mb-1">Eventos</h2>
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                            <div>
-                                <p class="fw-bold mb-0">Niterói</p>
-                                <p class="text-muted mb-0">Praia de São Francisco</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card"><img class="img-fluid card-img-top w-100 d-block fit-cover" style="height: 200px;" src="thumbnail/bodas/dj-andre-bodas-niteroi-country-clube.webp" loading="lazy" width="414px" height="200px" alt="DJ para festas de bodas">
-                        <div class="card-body p-4">
-                            <h2 class="text-primary card-text mb-1">Bodas</h2>
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                            <div>
-                                <p class="fw-bold mb-0">Niterói</p>
-                                <p class="text-muted mb-0">Contry Clube</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card"><img class="img-fluid card-img-top w-100 d-block fit-cover" style="height: 200px;" src="thumbnail/aniversarios/dj-andre-aniversario-rio-bonito-espaco-ceccarelli.webp" loading="lazy" width="414px" height="200px" alt="DJ para festas de aniversário">
-                        <div class="card-body p-4">
-                            <h2 class="text-primary card-text mb-1">Aniversários</h2>
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                            <div>
-                                <p class="fw-bold mb-0">Rio Bonito</p>
-                                <p class="text-muted mb-0">Espaço Ceccarelli</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-    <div class="d-flex justify-content-center align-items-center" data-aos="zoom-in-right" data-aos-duration="450" data-aos-offset="100" id="whatsapp"><a class="d-flex justify-content-center align-items-center whatsapp" data-bs-target="#contato" data-bs-toggle="modal" aria-label="Contato pelo whatsapp" href="#"><img class="img-fluid" src="icones/whatsapp.svg" width="40px" height="40px" alt="Mensagem WhatsApp" loading="lazy"></a></div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="contato">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header text-light text-bg-primary d-flex justify-content-center">
-                    <h5 class="modal-title">Mensagem por WhatsApp</h5><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body">
-                    <form><input class="form-control mb-3" type="text" name="Nome" placeholder="Seu nome" required=""><input class="form-control mb-3" type="email" required="" name="Email" placeholder="Seu e-mail"><textarea class="form-control mb-3" name="Mensagem" placeholder="Escreva sua mensagem" required=""></textarea><input class="btn btn-primary" type="submit" name="enviar" style="color: rgb(255,255,255);"></form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div data-aos="zoom-in-up" data-aos-duration="450" data-aos-offset="100" id="pracima"><a class="d-flex justify-content-center align-items-center pracima" target="_top" href="#" aria-label="Voltar ao topo"><img class="img-fluid" src="icones/top.svg" width="40px" height="40px" alt="Ir para o topo" loading="lazy"></a></div>
-    <div class="overlay">
-        <div class="preloader">
-            <div><img class="img-fluid spinner" src="Vinil.webp" width="100px" height="100px" alt="Preloader DJ Vinil"></div>
-        </div>
-    </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/aos.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/preloader.js"></script>
     <script src="assets/js/navbar.js"></script>
     <script src="assets/js/backtotop.js"></script>

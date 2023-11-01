@@ -179,3 +179,8 @@
   background: #ffffff;
 }
 
+.footer-empresa {
+  background: rgba(255,199,147,0.1);
+  box-shadow: 0px 4px 0px 0px rgba(255,199,147,0.6), 0px -4px rgba(255,199,147,0.6);
+}
+

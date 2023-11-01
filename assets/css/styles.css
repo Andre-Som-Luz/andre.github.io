@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Poppins';
-  font-size: 1.25rem;
+  font-size: 1.13rem;
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
@@ -267,5 +267,17 @@ footer {
   font-size: 16px;
   font-weight: 300;
   line-height: 1.2;
+}
+
+.footer-empresa {
+  background: rgba(255,199,147,0.1);
+}
+
+.footer-empresa a {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
 

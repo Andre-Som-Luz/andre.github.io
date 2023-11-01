@@ -1,34 +1,7 @@
-:root, [data-bs-theme=light] {
-  --bs-blue: #d67012;
-  --bs-primary: #d67012;
-  --bs-light: #d6701280;
-  --bs-primary-rgb: 214,112,18;
-  --bs-light-rgb: 214,112,18;
-  --bs-primary-bg-subtle: #d6701280;
-  --bs-light-bg-subtle: #fcfcfd;
-  --bs-light-border-subtle: #e9ecef;
-  --bs-link-color: rgb(214,112,18);
-  --bs-link-color-rgb: 214,112,18;
-  --bs-border-color: #ffd5ae99;
-  --bs-border-color-translucent: rgba(255,213,174,0.6);
-}
-
-.card {
-  --bs-card-border-color: rgba(255,213,174,0.6);
-  --bs-card-cap-bg: rgba(252,239,227,0.3);
-  --bs-card-bg: var(--bs-body-bg);
-}
+/* Configurações Gerais */
 
 body {
   font-family: 'Poppins';
-}
-
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Poppins';
-}
-
-.h3, h3 {
-  font-size: 1.9rem;
 }
 
 /* LGPD */
@@ -62,7 +35,11 @@ body {
 /* Barra de navegação */
 
 .nav-link.active, .nav-link.focus, .nav-link.hover, .nav-link:focus, .nav-link:hover {
-  color: #d67012 !important;
+  color: #ffa755 !important;
+}
+
+.nav-link {
+  color: #d67012!important;
 }
 
 #navbar {
@@ -147,23 +124,7 @@ body {
   bottom: 15px;
 }
 
-/* #preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
-} */
-
 /* Estilo para o preloader */
-
-#preloader {
-}
 
 #preloader {
   position: fixed;
@@ -196,8 +157,6 @@ body {
   }
 }
 
-/* Estilo para a imagem do spinner */
-
 /* Adicione uma classe para ocultar a div até que a animação seja acionada */
 
 #brand {
@@ -217,31 +176,6 @@ body {
 
 #submit {
   color: rgb(255, 255, 255);
-}
-
-.form-check-input:checked {
-  background-color: rgba(214,112,18,0.6);
-  border-color: rgba(214,112,18,0.8);
-}
-
-.form-check-input, .form-control {
-  border-color: rgba(214,112,18,0.2);
-  box-shadow: none;
-}
-
-.form-check-input:focus, .form-control:focus {
-  border-color: rgba(214,112,18,0.8);
-  box-shadow: none;
-}
-
-#submit, :focus {
-  box-shadow: none;
-  border-color: rgba(214,112,18,0.8);
-}
-
-#submit:focus, #submit:hover {
-  background: rgba(214,112,18,0.2);
-  color: #d67012;
 }
 
 .card-header {
@@ -285,10 +219,6 @@ h5 {
   border-top: 1px solid rgba(255,213,174,0.6);
 }
 
-a:hover {
-  color: rgba(214,112,18,0.85)!important;
-}
-
 .creditos {
   text-decoration: none!important;
   font-weight: 500;
@@ -304,13 +234,11 @@ footer {
 
 .card-footer a {
   text-decoration: none;
-  color: #000000;
 }
 
 .footer-buttons {
-  height: 46px;
-  width: 46px;
-  border-radius: 50%;
+  height: 55px;
+  width: 55px;
 }
 
 .footer-buttons-link {

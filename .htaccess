@@ -1,13 +1,1 @@
-# Inclua o arquivo robots.txt
-RewriteRule ^robots\.txt$ /caminho/para/seu/robots.txt [L]
-
-# Inclua o arquivo sitemap.xml
-RewriteRule ^sitemap\.xml$ /caminho/para/seu/sitemap.xml [L]
-
-# Redirecione qualquer link não mais existente para a página inicial do seu site
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ / [L]
-
 ErrorDocument 404 /404.html

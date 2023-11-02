@@ -67,7 +67,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 @media (min-width: 992px) {
   .div-hero {
     height: 600px;
-    background: url("/assets/img//fundos/hero-xxl.webp") center center/cover no-repeat;
+    background: url("../../assets/img//fundos/hero-xxl.webp") center center/cover no-repeat;
     max-width: 100%;
   }
 }
@@ -75,7 +75,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 @media (max-width: 992px) {
   .div-hero {
     height: 600px;
-    background: url("/assets/img/fundos/hero-xs.webp") center center/cover no-repeat;
+    background: url("../../assets/img/fundos/hero-xs.webp") center center/cover no-repeat;
     max-width: 100%;
   }
 }
@@ -83,7 +83,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 @media (min-width: 992px) {
   .div-hero-aniversario {
     height: 600px;
-    background: linear-gradient(rgba(252,244,237,0.6), rgba(252,244,237,0.6)), url("/assets/img/fundos/DJ-Som-Luz-15-anos.webp") center center/cover no-repeat;
+    background: linear-gradient(rgba(252,244,237,0.6), rgba(252,244,237,0.6)), url("../../assets/img/fundos/DJ-Som-Luz-15-anos.webp") center center/cover no-repeat;
     max-width: 100%;
   }
 }
@@ -91,7 +91,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 @media (max-width: 992px) {
   .div-hero-aniversario {
     height: 600px;
-    background: linear-gradient(rgba(252,244,237,0.6), rgba(252,244,237,0.6)), url("/assets/img/fundos/DJ-Som-Luz-15-anos-xs.webp") center center/cover no-repeat;
+    background: linear-gradient(rgba(252,244,237,0.6), rgba(252,244,237,0.6)), url("../../assets/img/fundos/DJ-Som-Luz-15-anos-xs.webp") center center/cover no-repeat;
     max-width: 100%;
   }
 }
@@ -99,7 +99,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 @media (min-width: 992px) {
   .div-hero-casamento {
     height: 600px;
-    background: linear-gradient(rgba(252,244,237,0.6), rgba(252,244,237,0.6)), url("/assets/img/fundos/DJ-Som-Luz-Casamento.webp") center right / cover no-repeat;
+    background: linear-gradient(rgba(252,244,237,0.6), rgba(252,244,237,0.6)), url("../../assets/img/fundos/DJ-Som-Luz-Casamento.webp") center right / cover no-repeat;
     max-width: 100%;
   }
 }
@@ -108,7 +108,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   .div-hero-casamento {
     height: 600px;
     max-width: 100%;
-    background: linear-gradient(rgba(252,244,237,0.6), rgba(252,244,237,0.6)), url("/assets/img/fundos/DJ-Som-Luz-Casamento-xs.webp") center right / cover no-repeat;
+    background: linear-gradient(rgba(252,244,237,0.6), rgba(252,244,237,0.6)), url("../../assets/img/fundos/DJ-Som-Luz-Casamento-xs.webp") center right / cover no-repeat;
   }
 }
 

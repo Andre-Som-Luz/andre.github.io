@@ -287,8 +287,10 @@ body {
   background: #fff;
 }
 
-a:hover {
-  color: rgba(214,112,18,.85)!important;
+a {
+  color: rgb(179,87,2)!important;
+  text-decoration: none;
+  font-family: 'Montserrat';
 }
 
 .creditos {
@@ -300,13 +302,9 @@ footer {
   box-shadow: 0 -2px 7px 1px rgba(255,199,147,.3);
 }
 
-.card-footer a {
-  text-decoration: none;
-}
-
 .footer-buttons {
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
 }
 
@@ -332,5 +330,9 @@ footer {
 
 .footer-empresa {
   box-shadow: inset 0px 4px 0px 0px rgba(255,199,147,0.6), inset 0px -4px rgba(255,199,147,0.6);
+}
+
+a:hover {
+  color: rgb(255,157,66)!important;
 }
 

@@ -1,0 +1,31 @@
+/* Seção de Destaque */
+
+.section-highlight {
+  padding: 50px 0;
+}
+
+.section-highlight img {
+  max-width: 100%;
+}
+
+/* Seção de Recursos ou Benefícios */
+
+.section-features {
+  padding: 50px 0;
+}
+
+.section-features h2 {
+  font-size: 2rem;
+}
+
+/* Formulário de Contato ou Conversão */
+
+section form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+

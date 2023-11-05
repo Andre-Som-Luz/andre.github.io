@@ -137,9 +137,7 @@ body {
 }
 
 .card {
-  --bs-card-border-color: rgba(255,213,174,0.6);
-  --bs-card-cap-bg: rgba(252,239,227,0.3);
-  --bs-card-bg: var(--bs-body-bg);
+  background-color: #ffffff;
 }
 
 .hidden {
@@ -271,10 +269,6 @@ body {
   padding-bottom: 35px;
   color: #000!important;
   background-color: #f8c08d1a!important;
-}
-
-.card-body {
-  margin-bottom: 20px;
 }
 
 .bt-icon {

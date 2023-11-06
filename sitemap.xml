@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
+        <loc>https://andresomeluz.com.br/dj-araruama/araruama.html</loc>
+    </url>
+    <url>
+        <loc>https://andresomeluz.com.br/dj-araruama/dj-areal-araruama-rj.html</loc>
+    </url>
+    <url>
+        <loc>https://andresomeluz.com.br/dj-araruama/dj-balneario-praia-seca-araruama-rj.html</loc>
+    </url>
+    <url>
+        <loc>https://andresomeluz.com.br/dj-araruama/dj-bananeiras-araruama-rj.html</loc>
+    </url>
+    <url>
+        <loc>https://andresomeluz.com.br/dj-araruama/dj-barbudo-araruama-rj.html</loc>
+    </url>
+    <url>
+        <loc>https://andresomeluz.com.br/dj-araruama/dj-coqueiral-araruama-rj.html</loc>
+    </url>
+    <url>
+        <loc>https://andresomeluz.com.br/dj-araruama/dj-outeiro-araruama-rj.html</loc>
+    </url>
+    <url>
+        <loc>https://andresomeluz.com.br/dj-araruama/dj-parati-araruama-rj.html</loc>
+    </url>
+    <url>
+        <loc>https://andresomeluz.com.br/dj-araruama/dj-pontinha-araruama-rj.html</loc>
+    </url>
+    <url>
+        <loc>https://andresomeluz.com.br/dj-araruama/dj-praia-das-espumas-araruama-rj.html</loc>
+    </url>
+    <url>
         <loc>https://andresomeluz.com.br/dj-itaborai/dj-cabucu-itaborai-rj.html</loc>
     </url>
     <url>
@@ -231,4 +261,7 @@
     <url>
         <loc>https://andresomeluz.com.br/videos.html</loc>
     </url>
+    <url>
+        <loc>https://andresomeluz.com.br/404.html</loc>
+    </url>    
 </urlset>

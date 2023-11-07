@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
+        <loc>https://andresomeluz.com.br/dj/niteroi/15-anos.html</loc>
+    </url>
+    <url>
+        <loc>https://andresomeluz.com.br/dj/niteroi/casamento.html</loc>
+    </url>
+    <url>
         <loc>https://andresomeluz.com.br/dj-araruama/araruama.html</loc>
     </url>
     <url>
@@ -166,18 +172,6 @@
         <loc>https://andresomeluz.com.br/dj-niteroi/niteroi.html</loc>
     </url>
     <url>
-        <loc>https://andresomeluz.com.br/dj-para-15-anos/niteroi.html</loc>
-    </url>
-    <url>
-        <loc>https://andresomeluz.com.br/dj-para-aniversarios/niteroi.html</loc>
-    </url>
-    <url>
-        <loc>https://andresomeluz.com.br/dj-para-casamentos/niteroi.html</loc>
-    </url>
-    <url>
-        <loc>https://andresomeluz.com.br/dj-para-formaturas/niteroi.html</loc>
-    </url>
-    <url>
         <loc>https://andresomeluz.com.br/dj-rio-bonito/rio-bonito.html</loc>
     </url>
     <url>
@@ -244,6 +238,9 @@
         <loc>https://andresomeluz.com.br/dj-sao-goncalo/sao-goncalo.html</loc>
     </url>
     <url>
+        <loc>https://andresomeluz.com.br/404.html</loc>
+    </url>
+    <url>
         <loc>https://andresomeluz.com.br/contato.html</loc>
     </url>
     <url>
@@ -260,8 +257,5 @@
     </url>
     <url>
         <loc>https://andresomeluz.com.br/videos.html</loc>
-    </url>
-    <url>
-        <loc>https://andresomeluz.com.br/404.html</loc>
     </url>
 </urlset>
